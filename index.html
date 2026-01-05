@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete resposive sport design dailywebdesign</title>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="C:\Users\PRANSHU\OneDrive\Desktop\Iwp Assignment\IWP ASSIGNMENT\style.css">
+</head>
+<body>
+
+
+
+<header class="header">
+    <a href="#" class="logo"> <i class="fa-solid fa-baseball-bat-ball"></i> sporteyz </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#review">Review</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Login</button>
+
+    </div>
+
+</header>
+
+
+
+<section class="home" id="home">
+    
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <span>Never Stop</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="cricket_img.png">
+            </div>
+        </div>
+
+
+        <div class="slide">
+            <div class="content">
+                <span>Never Stop</span>
+                <h3>upto 50% off</h3>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="blog4.jpeg">
+            </div>
+        </div>
+
+    </div>
+    <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+</section>
+
+
+<section class="banner-container">
+
+<div class="banner">
+    <img decoding="async" src="ne1.jpeg" alt="">
+    <div class="content">
+    <span>limited sales</span>
+    <h3>upto 50% off</h3>
+    <a href="#" class="btn">Shop Now</a>
+</div>
+</div>
+
+<div class="banner">
+    <img decoding="async" src="ne2.jpeg" alt="">
+    <div class="content">
+    <span>limited sales</span>
+    <h3>upto 50% off</h3>
+    <a href="#" class="btn">Shop Now</a>
+</div>
+</div>
+
+<div class="banner">
+    <img decoding="async" src="ne3.jpeg" alt="">
+    <div class="content">
+    <span>limited sales</span>
+    <h3>upto 50% off</h3>
+    <a href="#" class="btn">Shop Now</a>
+</div>
+</div>
+
+</section>
+
+
+
+<div class="heading">
+    <h1>Our Shop</h1>
+</div>
+
+<section class="category">
+    <br>
+    <h1 class="title"> our <span>category</span> <a href="#"> view all >> </a> </h1>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img decoding="async" src="bx1.jpeg" alt="">
+            <h3>night stadium</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="home-bg.jpg" alt="">
+            <h3>day stadium</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="home-bg2.jpg" alt="">
+            <h3>day stadium</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="pic7.jpeg" alt="">
+            <h3>day stadium</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img decoding="async" src="upmatch.jpeg" alt="">
+            <h3>evening stadium</h3>
+        </a>
+
+    </div>
+</section>
+
+
+
+
+
+<section class="products" id="shop">
+    <h1 class="title"> our <span>product</span> <a href="#">view all >></a></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Bag</h3>
+                <div class="price">RS 1599</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod2.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Cap</h3>
+                <div class="price">RS 299</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod3.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Shose</h3>
+                <div class="price">RS 1999</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod4.png" alt="">
+            </div>
+            <div class="content">
+                <h3>T-shirt</h3>
+                <div class="price">RS 499</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod5.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Foot Ball</h3>
+                <div class="price">RS 699</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod6.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Bat</h3>
+                <div class="price">RS 1299</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="prod7.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Ball</h3>
+                <div class="price">RS 699</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="baseball.png.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Base Ball</h3>
+                <div class="price">RS 599</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<div class="heading">
+    <h1>About Us</h1>
+</div>
+
+<section class="about" id="about">
+    <div class="img">
+        <img decoding="async" src="foter_bg.jpeg" alt="">
+    </div>
+
+    <div class="content">
+        <span>Welcome to our Products</span>
+        <h3>sporteyz</h3>
+        <p>We're passionate about sports and committed to providing athletes with top-quality gear. Our mission is simple: to equip athletes with the best equipment that enhances performance and confidence. With a focus on quality, expertise, and customer satisfaction, we offer a wide range of sports equipment and accessories for every athlete. Let's play like champions together!
+
+        </p>
+           
+             <a href="#" class="btn">read more</a>
+    </div>
+</section>
+
+
+
+
+
+<div class="heading">
+    <h1>Client's review</h1>
+</div>
+
+<section class="info-container">
+
+    <div class="info">
+        <img decoding="async" src="icon-1.png" alt="">
+        <div class="content">
+            <h3>fast delivery</h3>
+            <span>within 30 minutes</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="icon-2.png" alt="">
+        <div class="content">
+            <h3>24/7 available</h3>
+            <span>within 30 minutes</span>
+        </div>
+    </div>
+
+    <div class="info">
+        <img decoding="async" src="icon-3.png" alt="">
+        <div class="content">
+            <h3>easy payments</h3>
+            <span>within 30 minutes</span>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="review" id="review">
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="rp1.jpg" alt="">
+            <div class="info">
+                <h3>Jenna Bey</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>Best part about Sporteyz is the availability ofn products and the quality.App is easy to use,only thing is it's bit slow at times and takes too much time to load products.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="rp2.jpg" alt="">
+            <div class="info">
+                <h3>Shubham Dixit</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>I like it,it's very simple to operate not the unnecessary hodgepodge like many other apps.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="rp3.jpg" alt="">
+            <div class="info">
+                <h3>Kevin Mascarenhas</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>The ordering process was seamless, and my items arrived quickly and in perfect condition. The quality of the equipment is top-notch, and I feel confident knowing that I made a great investment. I highly recommend Sportezy to anyone in need of quality sports gear!"</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="rp4.jpg" alt="">
+            <div class="info">
+                <h3>Syed Ameen</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>I have purchased from sportezy sports shoes first time and I have feel good,my running shoes is very comfortable and looking nice.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="rp5.jpg" alt="">
+            <div class="info">
+                <h3>Mithun Goswami</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>I have always purchased from store.First time purchasing online.Hopefully it will be satisfactory.</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img decoding="async" src="rp6.jpg" alt="">
+            <div class="info">
+                <h3>Saumen Bhadra</h3>
+                <span>happy client</span>
+            </div>
+        </div>
+        <p>Today I placed my first order.App interference is good.Now I have to see the quality,finish anf fitment of the product.</p>
+    </div>
+</section>
+
+  <section class="footer" id="contact">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Shop</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>About</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Blog</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-arrow-right"></i>my order</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my favorite</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>my account</a>
+                <a href="#"><i class="fas fa-arrow-right"></i>terms or use</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for lastest update</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email address">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+                <img decoding="async" src="payment.png" class="payments" alt="">
+            </div>
+        </div>
+    </section>
+
+<div class="credit">created by dailywebdesign || all right reserved</div>
+
+  <script src="main.js" defer data-deferred="1"></script> </body>
+</html>
